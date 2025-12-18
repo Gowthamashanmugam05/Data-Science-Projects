@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Supermart - Images Gallery</title>
+  <style>
+    body{font-family:Arial,Helvetica,sans-serif;margin:20px;background:#f7f7f7}
+    h1{margin-bottom:10px}
+    .gallery{display:flex;flex-wrap:wrap;gap:18px}
+    .card{background:#fff;border:1px solid #e0e0e0;border-radius:6px;padding:10px;box-shadow:0 1px 4px rgba(0,0,0,0.06);width:320px}
+    .card img{width:100%;height:auto;border-radius:4px}
+    .caption{font-size:14px;margin-top:8px}
+    a{color:#0366d6;text-decoration:none}
+  </style>
+</head>
+<body>
+  <h1>Supermart - Generated Plots Gallery</h1>
+  <p>Open images or the full report: <a href="report.html">Report (report.html)</a></p>
+  <div class="gallery">
+    <div class="card">
+      <img src="01_category_sales.png" alt="Total Sales by Category">
+      <div class="caption"><b>Total Sales by Category</b></div>
+    </div>
+    <div class="card">
+      <img src="02_monthly_sales.png" alt="Monthly Sales Trend">
+      <div class="caption"><b>Monthly Sales Trend</b></div>
+    </div>
+    <div class="card">
+      <img src="03_yearly_sales.png" alt="Yearly Sales Share">
+      <div class="caption"><b>Yearly Sales Share</b></div>
+    </div>
+    <div class="card">
+      <img src="04_top_cities.png" alt="Top 5 Cities by Sales">
+      <div class="caption"><b>Top 5 Cities by Sales</b></div>
+    </div>
+    <div class="card">
+      <img src="05_discount_vs_sales.png" alt="Discount vs Sales">
+      <div class="caption"><b>Discount vs Sales</b></div>
+    </div>
+    <div class="card" style="width:100%">
+      <img src="06_correlation.png" alt="Correlation Heatmap">
+      <div class="caption"><b>Correlation Heatmap</b></div>
+    </div>
+  </div>
+  <hr>
+  <p>Generated from: <code>output/</code></p>
+</body>
+</html>
